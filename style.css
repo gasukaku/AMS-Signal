@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+body {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: hsl(145, 91%, 14%);
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position:sticky;
+    top:0;
+}
+
+header .logo {
+    font-size: 1.5em;
+}
+header .logo img {
+    height: 60px; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.slider img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+h1, h2 {
+    color: #004d40;
+}
+
+.signal {
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: #e0f2f1;
+    gap: 20px;
+
+}
+
+.signal {
+     
+    
+    @media (min-width: 768px) {
+        img {
+          width: 500px;
+          }
+      }
+      @media (max-width: 767px) {
+        img {
+          width: 45%;
+          }
+      }
+        img {
+          margin:5px 0px ;
+          padding-left:2px;
+          padding-right:2px;  
+          border-radius: 8px;    
+        } 
+ 
+    }
+    
+
+ .signal h3 {
+    color: #004d40;
+}
+
+aside {
+    background-color: #e0f2f1;
+    padding: 1em;
+    margin: 0 0;
+    a {
+        color:black;
+    }
+    a:hover {
+        color:#616161;
+    }
+}
+
+aside h3 {
+    color: #004d40;
+}
+
+footer {
+    background-color:  hsl(145, 91%, 14%);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav ul li {
+    margin: 0 1em;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+
+   a {
+    color: rgba(11, 92, 4, 0.932);
+   }
+   a:hover {
+    color: rgb(139, 167, 102);
+    }
+}
+.links {
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: #e0f2f1;
+    gap: 20px; 
+    }
+
+.links {
+         @media (min-width: 768px) {
+        img {
+          width: 700px;
+          }
+      }
+         @media (max-width: 767px) {
+        img {
+          width: 90%;
+
+          }
+      }
+        img {
+          margin:5px 0px ;
+          border-radius: 5px;
+        } 
+        }
+
+
+  .signal h3 {
+    color: #004d40;
+    }
+
+   aside {
+    background-color: #e0f2f1;
+    padding: 1em;
+    margin-bottom: 100px; 
+                    
+    }
+
+    aside h3 {
+    color: #004d40;
+    }
+
+    aside ul {
+    list-style: none;
+    padding: 0;
+    }
+
+    aside ul li {
+    margin-bottom: 0.5em;
+    }
+
+    aside ul li a {
+    color: #004d40;
+    text-decoration: none;
+    }
