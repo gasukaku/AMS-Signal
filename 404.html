@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <link rel="icon" href="../icon.png"  type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="style.css">
+    <title>404 NotFound - AMS Signal</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CYMSYM9KZS"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CYMSYM9KZS');
+   </script>
+    <script>
+       window.onload = function() {
+            var url = window.location.href;
+            var urlObj = new URL(url);
+            var path = urlObj.pathname;
+            document.getElementById('pathDisplay').textContent = path;
+        };
+    </script>
+
+</head>
+<body>
+   
+   <!--以下、共通ヘッダー化-->
+    <header>
+        <div class="logo"><a href="../"><img src="logo.png" alt="logo"></a></div>
+        <nav>
+            <ul>
+                <li><a href="../">Home</a></li>
+                <li><a href="../links.html">Links</a></li>
+            </ul>
+        </nav>
+    </header>
+ <main>
+    <h1>404 NotFound</h1>
+<p>指定されたページまたはファイル'<span id="pathDisplay"></span>'は見つかりませんでした。移動または削除された可能性があります。</p> 
+</main>
