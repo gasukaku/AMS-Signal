@@ -1,9 +1,24 @@
-// header
-fetch('../js/header.html')
-  .then(response => response.text())
-  .then(data => {
-    const headerElement = document.getElementById('commonheader');
-    headerElement.innerHTML = data;
-  });
+function writeHeader(rootDir){
+  $.ajax({
+       url : "../js/header.html",
+        cache: false,
+        async: false,
+        success: function(html){
 
-  
+            html = html.replace(/\{\$root\}/g, rootDir);
+            document.write(html);
+        }
+    });
+}
+function writeFooter(rootDir){
+  $.ajax({
+        url: "/js/footer.html",
+        cache: false,
+        async: false,
+        success: function(html){
+
+            html = html.replace(/\{\$root\}/g, rootDir);
+            document.write(html);
+        }
+    });
+}
