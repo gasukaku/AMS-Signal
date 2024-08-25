@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
-html {scroll-behavior: smooth;
+
+html {
+    scroll-behavior: smooth;
 }
+
 body {
     font-family: "Zen Kaku Gothic New", sans-serif;
     font-weight: 400;
@@ -9,7 +12,7 @@ body {
     padding: 0;
     color: #333;
     background-color: #f8f8f8;
-   
+
 }
 
 header {
@@ -20,15 +23,16 @@ header {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    position:sticky;
-    top:0;
+    position: sticky;
+    top: 0;
 }
 
 header .logo {
     font-size: 1.5em;
 }
+
 header .logo img {
-    height: 60px; 
+    height: 60px;
 }
 
 nav ul {
@@ -57,7 +61,8 @@ main {
     object-fit: cover;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #004d40;
 }
 
@@ -71,69 +76,77 @@ h1, h2 {
 }
 
 .signal {
-     
-    
+
+
     @media (min-width: 768px) {
         img {
-          width: 500px;
-          }
-      }
-      @media (max-width: 767px) {
-        img {
-          width: 45%;
-          }
-      }
-        img {
-          margin:5px 0px ;
-          padding-left:2px;
-          padding-right:2px;  
-          border-radius: 8px;    
-        } 
- 
+            width: 500px;
+        }
     }
-    
 
- .signal h3 {
+    @media (max-width: 767px) {
+        img {
+            width: 45%;
+        }
+    }
+
+    img {
+        margin: 5px 0px;
+        padding-left: 2px;
+        padding-right: 2px;
+        border-radius: 8px;
+    }
+
+}
+
+
+.signal h3 {
     color: #004d40;
 }
- .city {
+
+.city {
     margin-bottom: 2em;
     padding: 1em;
     border-radius: 8px;
     background-color: #fff4d2;
     gap: 20px;
 }
+
 .city {
- 
+
     @media (min-width: 768px) {
         img {
-          width: 500px;
-          }
-      }
-      @media (max-width: 767px) {
-        img {
-          width: 45%;
-          }
-      }
-        img {
-          margin:5px 0px ;
-          padding-left:2px;
-          padding-right:2px;  
-          border-radius: 8px;    
-        } 
- 
+            width: 500px;
+        }
     }
+
+    @media (max-width: 767px) {
+        img {
+            width: 45%;
+        }
+    }
+
+    img {
+        margin: 5px 0px;
+        padding-left: 2px;
+        padding-right: 2px;
+        border-radius: 8px;
+    }
+
+}
 
 
 aside {
     background-color: #e0f2f1;
     padding: 1em;
     margin: 0 0;
+
     a {
-        color:black;
+        color: black;
     }
+
     a:hover {
-        color:#616161;
+        color: #616161;
     }
 }
 
@@ -142,7 +155,7 @@ aside h3 {
 }
 
 footer {
-    background-color:  hsl(145, 91%, 14%);
+    background-color: hsl(145, 91%, 14%);
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -167,70 +180,72 @@ footer nav ul li a {
 
 main {
 
-   a {
-    color: rgba(11, 92, 4, 0.932);
-   }
-   a:hover {
-    color: rgb(139, 167, 102);
+    a {
+        color: rgba(11, 92, 4, 0.932);
+    }
+
+    a:hover {
+        color: rgb(139, 167, 102);
     }
 }
+
 .links {
     margin-bottom: 2em;
     padding: 1em;
     border-radius: 8px;
     background-color: #e0f2f1;
-    gap: 20px; 
-    }
+    gap: 20px;
+}
 
 .links {
-         @media (min-width: 768px) {
+    @media (min-width: 768px) {
         img {
-          width: 700px;
-          }
-      }
-         @media (max-width: 767px) {
-        img {
-          width: 90%;
-
-          }
-      }
-        img {
-          margin:5px 0px ;
-          border-radius: 5px;
-        } 
+            width: 700px;
         }
-
-
-  .signal h3 {
-    color: #004d40;
     }
 
-   aside {
+    @media (max-width: 767px) {
+        img {
+            width: 90%;
+
+        }
+    }
+
+    img {
+        margin: 5px 0px;
+        border-radius: 5px;
+    }
+}
+
+
+.signal h3 {
+    color: #004d40;
+}
+
+aside {
     background-color: #f8dde1;
     padding-top: 1em;
-                    
-    }
 
-    aside h3 {
+}
+
+aside h3 {
     color: #004d40;
-    }
+}
 
-    aside ul {
+aside ul {
     list-style: none;
     padding: 0;
-    }
+}
 
-    aside ul li {
+aside ul li {
     margin-bottom: 0.5em;
-    }
+}
 
-    aside ul li a {
+aside ul li a {
     color: #004d40;
     text-decoration: none;
-    }
+}
 
-    .red {
-    color:red;
-    }
-    
-   
+.red {
+    color: red;
+}
