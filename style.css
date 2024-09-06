@@ -321,13 +321,13 @@ aside ul li a {
 
     @media (min-width: 768px) {
         img {
-            width: 800px;
+            width: 650px;
         }
     }
 
     @media (max-width: 767px) {
         img {
-            width: 80%;
+            width: 60%;
         }
     }
 
