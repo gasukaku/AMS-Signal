@@ -291,3 +291,27 @@ aside ul li a {
 .signal-red h3 {
     color: #004d40;
 }
+
+.image {
+
+
+    @media (min-width: 768px) {
+        img {
+            width: 500px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        img {
+            width: 45%;
+        }
+    }
+
+    img {
+        margin: 5px 0px;
+        padding-left: 2px;
+        padding-right: 2px;
+        border-radius: 8px;
+    }
+
+}
