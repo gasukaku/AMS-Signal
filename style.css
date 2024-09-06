@@ -253,3 +253,41 @@ aside ul li a {
 .index {
     margin-bottom: 15px;
 }
+
+.signal-red {
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: #e0f2f1;
+    gap: 20px;
+
+}
+
+.signal-red {
+
+
+    @media (min-width: 768px) {
+        img {
+            width: 500px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        img {
+            width: 45%;
+        }
+    }
+
+    img {
+        margin: 5px 0px;
+        padding-left: 2px;
+        padding-right: 2px;
+        border-radius: 8px;
+    }
+
+}
+
+
+.signal-red h3 {
+    color: #004d40;
+}
