@@ -252,6 +252,7 @@ aside ul li a {
 
 .index {
     margin-bottom: 15px;
+    border-radius: 8px;
 }
 
 .signal-red {
